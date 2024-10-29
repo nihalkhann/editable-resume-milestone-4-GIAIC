@@ -1,0 +1,128 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    height: 100%;
+    max-width: 600px; /* Set a max-width for responsiveness */
+    margin: 0 auto;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: black;
+    
+
+}
+h1,h2{
+  text-align:center;;
+  text-shadow: 0 4px 8px  rgba(8, 140, 124, 0.706);
+  color:  rgb(2, 213, 251);
+
+
+}
+
+
+form {
+    min-width: 300px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(2, 213, 251);
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: black;
+
+}
+
+fieldset {
+    border: 2px solid  rgb(2, 213, 251);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+
+}
+
+legend {
+    font-weight: bold;
+    text-align: left;
+    color: rgb(2, 213, 251);
+}
+
+label {
+    display: inline;
+    margin-top: 10px;
+    color:rgb(2, 213, 251);
+}
+
+input, textarea {
+    width: 100%;
+    padding: 4px;
+    margin-top: 4px;
+    border: 1px solid rgb(2, 213, 251);
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: black;
+    color:white
+}
+
+button {
+    display: block;
+    width: 260px;
+    height: auto;
+    padding: 10px;
+    background-color: rgb(2, 213, 251);
+    color: rgb(15, 14, 14);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 10px 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button:hover {
+    background-color: rgb(5, 67, 71);
+}
+
+/* Resume Output Section */
+#resumeOutput {
+    min-width: 260px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid  rgb(2, 213, 251);
+    border-radius: 8px;
+    background-color: rgb(243, 242, 244);
+    box-shadow: 0 4px 8px  rgb(2, 213, 251);
+    color: rgb(15, 14, 14);
+    /* making the resume editable */
+    outline: none; 
+}
+
+
+.profilePicture {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid  rgb(2, 213, 251);
+    box-shadow: 0 4px 8px  rgb(2, 213, 251);
+    border-radius: 18% 42%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+button {
+        width: 100%; 
+    }
+
+    #resumeOutput {
+        min-width: 100%; 
+        padding: 15px;
+        background-color: black;
+        color: rgb(243, 242, 244);
+    }
+
+    .profilePicture {
+        width: 100px; 
+        height: 100px;
+    }
+footer{
+    text-align: center;
+    color: rgb(2, 213, 251);
+    padding: 20px;
+    font-size: 12px;
+}
